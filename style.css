@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  padding: 45px;
+  padding: 48px;
   max-width: 300px;
   box-sizing: border-box;
   flex-basis: 100%;
@@ -53,6 +53,7 @@ body {
 .excerpt {
   color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 88px;
+  line-height: 1.5;
 }
 
 .link {
@@ -65,6 +66,7 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: hsl(0, 0%, 95%);
+  display: inline-block;
 }
 
 .link:hover {
